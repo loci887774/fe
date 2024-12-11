@@ -1,0 +1,18 @@
+.chiNhanh {
+    color: red;
+    font-weight: bold;
+}
+
+.diaChi {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.dienThoai {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.hinh {
+    text-align: center;
+}
