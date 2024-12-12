@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>câu 5</title>
+</head>
+<body>
+    <form action="#" id="frmgiohang" name="frmgiohang">
+        <table border="1" cellspacing="0" cellpanding="5">
+            <tr>
+                <td>
+                    <b>STT</b>
+                </td>
+                <td>
+                    <b>Tên sản phẩm</b>
+                </td>
+                <td>
+                    <b>Nhà sản xuất</b>
+                </td>
+                <td>
+                    <b>Giá</b>
+                </td>
+                <td>
+                    <b>Số lượng</b>
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Apple iPad 2</td>
+                <td>Apple</td>
+                <td name="gia1" align="right">17.000.000</td>
+                <td width="30px">
+                    <input type="number" name="sl1" id="sl1" value="0" min="1" step="1" size="5">
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Apple iPad Nano</td>
+                <td>Apple</td>
+                <td name="gia2" align="right">14.000.000</td>
+                <td width="30px">
+                    <input type="number" name="sl2" id="sl2" value="0" min="1" step="1" size="5">
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>iphone 4S</td>
+                <td>Apple</td>
+                <td name="gia3" align="right">13.000.000</td>
+                <td width="30px">
+                    <input type="number" name="sl3" id="sl3" value="0" min="1" step="1" size="5">
+                </td>
+            </tr>
+            <!-- TOTAL -->
+            <tr>
+                <td colspan="5" align="right">
+                    <!-- <form oninput="x.value= parseInt(gia1*sl1) + parseInt(gia2*sl2) + parseInt(gia3*sl3)"> -->
+                        <label for="total">Total is: 44.000.000 VND</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" align="center">
+                    <input type="submit" name="submit" id="submit" value="Đồng ý và thanh toán">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>câu 3</title>
+</head>
+<body>
+    <form action="#" method="post" id="frmDK" name="frmDK">
+        <table border="1" cellpadding="5" cellspacing="0">
+            <tr>
+                <td colspan="2" align="center">
+                    <font color="red">
+                        <b>Nhập thông tin đăng ký</b>
+                    </font>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="tenTC">Tên truy cập</label></td>
+                <td>
+                    <input type="text" name="tenTC" id="tenTC" required autofocus placeholder="Nhập tên truy cập">
+                    <font color="red">*</font>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="mk">Mật khẩu</label></td>
+                <td>
+                    <input type="password" name="mk" id="mk" required  placeholder="Nhập mật khẩu">
+                    <font color="red">*</font>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="nlmk">Nhập lại mật khẩu</label></td>
+                <td>
+                    <input type="password" name="nlmk" id="nlmk" required  placeholder="Nhập lại mật khẩu">
+                    <font color="red">*</font>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="tinh">Tỉnh thành</label></td>
+                <td>
+                    <select name="tinh" id="tinh">
+                        <option value="0">Chọn tỉnh thành</option>
+                        <option value="1">An Giang</option>
+                        <option value="2">Cần Thơ</option>
+                        <option value="3">Đà Lạt</option>
+                    </select>
+                    <font color="red">*</font>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="datalist">Tỉnh thành datalist</label></td>
+                <td>
+                    <input type="text" id="datalist" name="datalist" list="tinhthanh">
+                    <datalist id="tinhthanh">
+                        <option value="An Giang">
+                        <option value="Cần Thơ">
+                        <option value="Đà Lạt">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="msat">Mã số an toàn</label></td>
+                <td>
+                    <input type="text" name="msat" id="msat" required>
+                    <img src="images/msat.jpg" alt="mã số an toàn" width="30" maxlength="4">
+                    <font color="red">*</font>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="checkbox">Đồng ý với quy định thành viên bên dưới</label></td>
+                <td>
+                    <input type="checkbox" name="checkbox" id="checkbox" required >
+                    <font color="red">*</font>
+                </td>
+            </tr>
+                    <!-- bổ sung thẻ iframe cho câu 6 -->
+            <tr>
+                <td colspan="2">
+                    <iframe src="cau6.html" frameborder="0" name="frmDkThanhVien" width="100%" height="200px" ></iframe>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="submit" id="submit" required  value="Đăng ký">
+                    <input type="reset" name="reset" id="reset"  value="Nhập lại">
+                    <font color="red">*</font>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
