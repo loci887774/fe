@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .b1 {
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+
+        .b2 {
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            background-color: red;
+            position: absolute;
+            top: 0px;
+            right: 10px;
+        }
+
+        @keyframes example {
+            0%   {top: red;}
+            25%  {top: yellow;}
+            50%  {background-color: blue;}
+            100% {background-color: green;}
+            }
+    </style>
+</head>
+<body>
+    <div class="b1">
+        <img src="images/phong-canh.jpg" alt="phong canh">
+        <div class="b2">HOT</div>
+    </div>
+    
+</body>
+</html>
